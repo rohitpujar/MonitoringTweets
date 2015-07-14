@@ -1,0 +1,190 @@
+[0m[[0minfo[0m] [0mRunning SimpleApp [0m
+[0m[[31merror[0m] [0mUsing Spark's default log4j profile: org/apache/spark/log4j-defaults.properties[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:26 INFO SparkContext: Running Spark version 1.3.0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:26 WARN Utils: Your hostname, priyanka-pc resolves to a loopback address: 127.0.0.1; using 192.168.0.126 instead (on interface wlan0)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:26 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:26 INFO SecurityManager: Changing view acls to: priyanka[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:26 INFO SecurityManager: Changing modify acls to: priyanka[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:26 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(priyanka); users with modify permissions: Set(priyanka)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:26 INFO Slf4jLogger: Slf4jLogger started[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO Remoting: Starting remoting[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@192.168.0.126:47677][0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO Utils: Successfully started service 'sparkDriver' on port 47677.[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO SparkEnv: Registering MapOutputTracker[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO SparkEnv: Registering BlockManagerMaster[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO DiskBlockManager: Created local directory at /tmp/spark-4c2a90ba-2418-4389-9e6b-ec6b58f8745f/blockmgr-179cece6-de6c-4d33-86ae-49af7a5aa6e1[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO MemoryStore: MemoryStore started with capacity 459.0 MB[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO HttpFileServer: HTTP File server directory is /tmp/spark-fa8ae101-c6ac-40f3-ba89-4c4c2fc73b97/httpd-f9a56252-032f-40d6-a834-5c3606ea6973[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO HttpServer: Starting HTTP Server[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO Server: jetty-8.y.z-SNAPSHOT[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO AbstractConnector: Started SocketConnector@0.0.0.0:42661[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO Utils: Successfully started service 'HTTP file server' on port 42661.[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO SparkEnv: Registering OutputCommitCoordinator[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO Server: jetty-8.y.z-SNAPSHOT[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO Utils: Successfully started service 'SparkUI' on port 4040.[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO SparkUI: Started SparkUI at http://192.168.0.126:4040[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO SparkContext: Added JAR target/scala-2.10/simple-project_2.10-1.0.jar at http://192.168.0.126:42661/jars/simple-project_2.10-1.0.jar with timestamp 1431360867761[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO Executor: Starting executor ID <driver> on host localhost[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:27 INFO AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@192.168.0.126:47677/user/HeartbeatReceiver[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO NettyBlockTransferService: Server created on 59454[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO BlockManagerMaster: Trying to register BlockManager[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO BlockManagerMasterActor: Registering block manager localhost:59454 with 459.0 MB RAM, BlockManagerId(<driver>, localhost, 59454)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO BlockManagerMaster: Registered BlockManager[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO MemoryStore: ensureFreeSpace(133168) called with curMem=0, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 130.0 KB, free 458.9 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO MemoryStore: ensureFreeSpace(18512) called with curMem=133168, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 18.1 KB, free 458.9 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:59454 (size: 18.1 KB, free: 459.0 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO BlockManagerMaster: Updated info of block broadcast_0_piece0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO SparkContext: Created broadcast 0 from textFile at SimpleApp.scala:21[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO MemoryStore: ensureFreeSpace(133216) called with curMem=151680, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 130.1 KB, free 458.7 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO MemoryStore: ensureFreeSpace(18512) called with curMem=284896, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 18.1 KB, free 458.7 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on localhost:59454 (size: 18.1 KB, free: 459.0 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO BlockManagerMaster: Updated info of block broadcast_1_piece0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO SparkContext: Created broadcast 1 from textFile at SimpleApp.scala:22[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO FileInputFormat: Total input paths to process : 1[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:28 INFO SparkContext: Starting job: collect at NaiveBayes.scala:201[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO DAGScheduler: Registering RDD 6 (map at NaiveBayes.scala:190)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO DAGScheduler: Got job 0 (collect at NaiveBayes.scala:201) with 1 output partitions (allowLocal=false)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO DAGScheduler: Final stage: Stage 1(collect at NaiveBayes.scala:201)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO DAGScheduler: Parents of final stage: List(Stage 0)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO DAGScheduler: Missing parents: List(Stage 0)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO DAGScheduler: Submitting Stage 0 (MapPartitionsRDD[6] at map at NaiveBayes.scala:190), which has no missing parents[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO MemoryStore: ensureFreeSpace(3968) called with curMem=303408, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 3.9 KB, free 458.7 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO MemoryStore: ensureFreeSpace(2767) called with curMem=307376, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 2.7 KB, free 458.7 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on localhost:59454 (size: 2.7 KB, free: 459.0 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO BlockManagerMaster: Updated info of block broadcast_2_piece0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:839[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO DAGScheduler: Submitting 1 missing tasks from Stage 0 (MapPartitionsRDD[6] at map at NaiveBayes.scala:190)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, PROCESS_LOCAL, 1412 bytes)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO Executor: Fetching http://192.168.0.126:42661/jars/simple-project_2.10-1.0.jar with timestamp 1431360867761[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO Utils: Fetching http://192.168.0.126:42661/jars/simple-project_2.10-1.0.jar to /tmp/spark-57712e4f-0c50-4021-927d-1e3bfd604a79/userFiles-f7b32fc3-09be-4453-bad3-85def389af1c/fetchFileTemp7995835967300664310.tmp[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO Executor: Adding file:/tmp/spark-57712e4f-0c50-4021-927d-1e3bfd604a79/userFiles-f7b32fc3-09be-4453-bad3-85def389af1c/simple-project_2.10-1.0.jar to class loader[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO CacheManager: Partition rdd_1_0 not found, computing it[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO HadoopRDD: Input split: file:/home/priyanka/spark/spark-1.3.0-bin-hadoop2.4/bin/Tweetmonitor/data/trainingdata.txt:0+1753089[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO MemoryStore: ensureFreeSpace(3553144) called with curMem=310143, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO MemoryStore: Block rdd_1_0 stored as values in memory (estimated size 3.4 MB, free 455.3 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO BlockManagerInfo: Added rdd_1_0 in memory on localhost:59454 (size: 3.4 MB, free: 455.6 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:29 INFO BlockManagerMaster: Updated info of block rdd_1_0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2572 bytes result sent to driver[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1550 ms on localhost (1/1)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool [0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: Stage 0 (map at NaiveBayes.scala:190) finished in 1.583 s[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: looking for newly runnable stages[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: running: Set()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: waiting: Set(Stage 1)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: failed: Set()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: Missing parents for Stage 1: List()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: Submitting Stage 1 (ShuffledRDD[7] at combineByKey at NaiveBayes.scala:190), which is now runnable[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO MemoryStore: ensureFreeSpace(2344) called with curMem=3863287, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 2.3 KB, free 455.3 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO MemoryStore: ensureFreeSpace(1606) called with curMem=3865631, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 1606.0 B, free 455.3 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on localhost:59454 (size: 1606.0 B, free: 455.6 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO BlockManagerMaster: Updated info of block broadcast_3_piece0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:839[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: Submitting 1 missing tasks from Stage 1 (ShuffledRDD[7] at combineByKey at NaiveBayes.scala:190)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, localhost, PROCESS_LOCAL, 1125 bytes)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 27051 bytes result sent to driver[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 49 ms on localhost (1/1)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool [0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: Stage 1 (collect at NaiveBayes.scala:201) finished in 0.049 s[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:30 INFO DAGScheduler: Job 0 finished: collect at NaiveBayes.scala:201, took 1.968784 s[0m
+[0m[[0minfo[0m] [0m---------------Printing rdd ---------------------[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO FileInputFormat: Total input paths to process : 1[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO SparkContext: Starting job: toArray at SimpleApp.scala:46[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO DAGScheduler: Got job 1 (toArray at SimpleApp.scala:46) with 1 output partitions (allowLocal=false)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO DAGScheduler: Final stage: Stage 2(toArray at SimpleApp.scala:46)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO DAGScheduler: Parents of final stage: List()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO DAGScheduler: Missing parents: List()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO DAGScheduler: Submitting Stage 2 (MapPartitionsRDD[8] at map at SimpleApp.scala:40), which has no missing parents[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO MemoryStore: ensureFreeSpace(54720) called with curMem=3867237, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:31 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 53.4 KB, free 455.3 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: ensureFreeSpace(16205) called with curMem=3921957, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 15.8 KB, free 455.2 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on localhost:59454 (size: 15.8 KB, free: 455.6 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManagerMaster: Updated info of block broadcast_4_piece0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:839[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Submitting 1 missing tasks from Stage 2 (MapPartitionsRDD[8] at map at SimpleApp.scala:40)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2, localhost, PROCESS_LOCAL, 1422 bytes)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO Executor: Running task 0.0 in stage 2.0 (TID 2)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO CacheManager: Partition rdd_3_0 not found, computing it[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO HadoopRDD: Input split: file:/home/priyanka/spark/spark-1.3.0-bin-hadoop2.4/bin/Tweetmonitor/data/testingdata.txt:0+27149[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: ensureFreeSpace(55032) called with curMem=3938162, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: Block rdd_3_0 stored as values in memory (estimated size 53.7 KB, free 455.2 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManagerInfo: Added rdd_3_0 in memory on localhost:59454 (size: 53.7 KB, free: 455.5 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManagerMaster: Updated info of block rdd_3_0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO Executor: Finished task 0.0 in stage 2.0 (TID 2). 2886 bytes result sent to driver[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 77 ms on localhost (1/1)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool [0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Stage 2 (toArray at SimpleApp.scala:46) finished in 0.076 s[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Job 1 finished: toArray at SimpleApp.scala:46, took 0.136476 s[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO SparkContext: Starting job: count at SimpleApp.scala:53[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Got job 2 (count at SimpleApp.scala:53) with 1 output partitions (allowLocal=false)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Final stage: Stage 3(count at SimpleApp.scala:53)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Parents of final stage: List()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Missing parents: List()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Submitting Stage 3 (MapPartitionsRDD[9] at filter at SimpleApp.scala:53), which has no missing parents[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: ensureFreeSpace(54872) called with curMem=3993194, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 53.6 KB, free 455.1 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: ensureFreeSpace(16307) called with curMem=4048066, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 15.9 KB, free 455.1 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on localhost:59454 (size: 15.9 KB, free: 455.5 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManagerMaster: Updated info of block broadcast_5_piece0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:839[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Submitting 1 missing tasks from Stage 3 (MapPartitionsRDD[9] at filter at SimpleApp.scala:53)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 3, localhost, PROCESS_LOCAL, 1422 bytes)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO Executor: Running task 0.0 in stage 3.0 (TID 3)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManager: Found block rdd_3_0 locally[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO Executor: Finished task 0.0 in stage 3.0 (TID 3). 1830 bytes result sent to driver[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Stage 3 (count at SimpleApp.scala:53) finished in 0.024 s[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Job 2 finished: count at SimpleApp.scala:53, took 0.044665 s[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 3) in 24 ms on localhost (1/1)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool [0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO SparkContext: Starting job: count at SimpleApp.scala:53[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Got job 3 (count at SimpleApp.scala:53) with 1 output partitions (allowLocal=false)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Final stage: Stage 4(count at SimpleApp.scala:53)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Parents of final stage: List()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Missing parents: List()[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Submitting Stage 4 (MapPartitionsRDD[5] at map at SimpleApp.scala:29), which has no missing parents[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: ensureFreeSpace(2864) called with curMem=4064373, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 2.8 KB, free 455.1 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: ensureFreeSpace(2107) called with curMem=4067237, maxMem=481296384[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 2.1 KB, free 455.1 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on localhost:59454 (size: 2.1 KB, free: 455.5 MB)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManagerMaster: Updated info of block broadcast_6_piece0[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:839[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Submitting 1 missing tasks from Stage 4 (MapPartitionsRDD[5] at map at SimpleApp.scala:29)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSchedulerImpl: Adding task set 4.0 with 1 tasks[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 4, localhost, PROCESS_LOCAL, 1422 bytes)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO Executor: Running task 0.0 in stage 4.0 (TID 4)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO BlockManager: Found block rdd_3_0 locally[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO Executor: Finished task 0.0 in stage 4.0 (TID 4). 1830 bytes result sent to driver[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 4) in 15 ms on localhost (1/1)[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool [0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Stage 4 (count at SimpleApp.scala:53) finished in 0.014 s[0m
+[0m[[31merror[0m] [0m15/05/11 11:14:32 INFO DAGScheduler: Job 3 finished: count at SimpleApp.scala:53, took 0.034694 s[0m
+[0m[[0minfo[0m] [0mPrediction and label : MapPartitionsRDD[8] at map at SimpleApp.scala:40[0m
+[0m[[0minfo[0m] [0mAccuracy : 0.0[0m
+[0m[[0minfo[0m] [0m-----------------------------------------------[0m
